@@ -24,8 +24,8 @@ public class executeTests {
     @Test
     public void simpleWawanesa() {
         System.setProperty("selenide.browser", "Chrome");
-        open("http://www.wawanesa.com");
-        $(By.id("Country")).selectOption("Wawanesa California");
+        open("http://www.anyGenericInsuranceCompany.com");
+        $(By.id("Country")).selectOption("genericInsuranceCompany California");
         $(withText("Manage Your Policy")).click();
         //$(withText("Billing Inquiry")).click();
         $(byText("Billing Inquiry")).click();
